@@ -32,7 +32,6 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      
       {socialMediaLinks.gmail ? (
         <a
           href={`mailto:${socialMediaLinks.gmail}`}

@@ -17,7 +17,7 @@ const splashScreen = {
 
 const illustration = {
   animated: true // Set to false tos use static SVG
-}; 
+};
 
 const greeting = {
   username: "Kent Wong",
@@ -36,9 +36,9 @@ const socialMediaLinks = {
   github: "https://github.com/tywong7",
   linkedin: "https://www.linkedin.com/in/kent-wong-wty/",
   gmail: "winryrb36@gmail.com",
-  travel:"http://memory.cw02.us.to",
- // gitlab: "https://gitlab.com/saadpasta",
- // facebook: "https://www.facebook.com/saad.pasta7",
+  travel: "http://memory.cw02.us.to",
+  // gitlab: "https://gitlab.com/saadpasta",
+  // facebook: "https://www.facebook.com/saad.pasta7",
   //medium: "https://medium.com/@saadpasta",
   //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -50,12 +50,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Empower machine to tackle mundane tasks, allowing humans to focus on things that require our unique abilities",
+  subTitle:
+    "Empower machine to tackle mundane tasks, allowing humans to focus on things that require our unique abilities",
   skills: [
     emoji(
       "⚡ Expert in developing dynamic and interactive web and mobile applications using React Native, Vue.js, and ASP.NET, enhancing user engagement and experience"
     ),
-    emoji("⚡ Specialized in AI and machine learning, with successful projects in Cantonese NLP, data analysis, and AI-driven applications, using Python, XGBoost, and Stable Diffusion"),
+    emoji(
+      "⚡ Specialized in AI and machine learning, with successful projects in Cantonese NLP, data analysis, and AI-driven applications, using Python, XGBoost, and Stable Diffusion"
+    ),
     emoji(
       "⚡ Proficient in integrating IoT solutions and creating PWA with offline functionality"
     )
@@ -65,7 +68,6 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    
     {
       skillName: "css",
       fontAwesomeClassname: "fab fa-css3-alt"
@@ -98,17 +100,17 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
-    
+
     {
       skillName: "java",
       fontAwesomeClassname: "fab fa-java"
     },
-    
+
     {
       skillName: "asp .net mvc",
       fontAwesomeClassname: "fas fa-globe"
     },
-      
+
     {
       skillName: "NLP/ RAG/ Stable Diffusion",
       fontAwesomeClassname: "fas fa-robot"
@@ -128,10 +130,7 @@ const educationInfo = {
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2016 - November 2020",
       desc: "College Head’s List",
-      descBullets: [
-        "Final semester GPA: 4/4",
-        "Final year project grade: A"
-      ]
+      descBullets: ["Final semester GPA: 4/4", "Final year project grade: A"]
     }
   ]
 };
@@ -223,7 +222,8 @@ const bigProjects = {
     {
       image: require("./assets/images/short.jpg"),
       projectName: "Two-Character URL Shortener",
-      projectDesc: "A personal-level URL shortener that transforms URLs into succinct two-character suffixes",
+      projectDesc:
+        "A personal-level URL shortener that transforms URLs into succinct two-character suffixes",
       footerLink: [
         {
           name: "Visit Website",
@@ -235,7 +235,8 @@ const bigProjects = {
     {
       image: require("./assets/images/sms.png"),
       projectName: "SMS Reader",
-      projectDesc: "A Kotlin-built tool that enables families to read verification SMS messages, removing the need for elderly individuals to search for SMS on their smartphones",
+      projectDesc:
+        "A Kotlin-built tool that enables families to read verification SMS messages, removing the need for elderly individuals to search for SMS on their smartphones",
       footerLink: [
         {
           name: "Download APK",
@@ -246,14 +247,15 @@ const bigProjects = {
     {
       image: require("./assets/images/luna.png"),
       projectName: "Luna's Lofi - Virtual Lofi Artist",
-      projectDesc: "Automated pipeline using MusicGEN, ChatGPT, and Stable Diffusion to create an AI music artist, generate her appearance, and compose music",
+      projectDesc:
+        "Automated pipeline using MusicGEN, ChatGPT, and Stable Diffusion to create an AI music artist, generate her appearance, and compose music",
       footerLink: [
         {
           name: "YouTube Channel",
           url: "https://www.youtube.com/@lunalofi0202"
         }
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -269,8 +271,7 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "Innovation and Entrepreneurship Competition",
-      subtitle:
-        "Third-class Award",
+      subtitle: "Third-class Award",
       image: require("./assets/images/HKSTP.png"),
       imageAlt: "Innovation and Entrepreneurship Competition Logo",
       footerLink: [
@@ -300,12 +301,15 @@ const achievementSection = {
 
     {
       title: "Web Accessibility Award",
-      subtitle: "incorporating web accessibility designs, promoting inclusivity and positive corporate image",
+      subtitle:
+        "incorporating web accessibility designs, promoting inclusivity and positive corporate image",
       image: require("./assets/images/access.png"),
       imageAlt: "Web Accesibility Logo",
       footerLink: [
-        {name: "Awardee List", url: "https://www.web-accessibility.hk/en/ceremony_awardees/main/854/?year=2022"},
-        
+        {
+          name: "Awardee List",
+          url: "https://www.web-accessibility.hk/en/ceremony_awardees/main/854/?year=2022"
+        }
       ]
     }
   ],
@@ -372,7 +376,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
- 
+
   email_address: "winryrb36@gmail.com"
 };
 
