@@ -94,7 +94,7 @@ if (USE_GITHUB_DATA === "true") {
   req.end();
 }
 
-if ((MEDIUM_USERNAME = "abc")) {
+if ((MEDIUM_USERNAME == "abc")) {
   console.log(`Fetching Medium blogs data for ${MEDIUM_USERNAME}`);
   const options = {
     hostname: "api.rss2json.com",
