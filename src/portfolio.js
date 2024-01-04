@@ -26,7 +26,7 @@ const greeting = {
     "A versatile and innovative Full Stack Developer 🚀 skilled in building advanced web and mobile applications, specializing in AI and automation with diverse cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/176wbJbTkWWNx3Z_pFk3otx6haEbIwFBS/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1nrLr6tIMbOApUmW-F80Qd646oMMyahed/view", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
